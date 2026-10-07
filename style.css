@@ -1,0 +1,88 @@
+
+body {
+    background-color: #f0f0f0; /* Cor de fundo cinza claro */
+    font-family: Arial, Helvetica, sans-serif; /* deixa a letra mais bonita */
+    color: #000000; /* Texto na cor preta */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    color: #0056b3; /* Título azul */
+    margin-top: 15px;
+    font-size: 1.8rem;
+}
+
+h3 {
+    color: #0056b3; /* titulo azul */
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+/*  para centralizar e dar o visual profissional */
+main {
+    max-width: 800px;
+    width: 100%;
+    background-color: #ffffff; /* Fundo branco interno para destacar o conteúdo */
+  text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+/* Estilo do cabeçalho e imagem da logo */
+header {
+    text-align: center;
+}
+
+header img  {
+    max-width: 200%;
+    height: auto;
+    border-radius: 4px;
+    text-align: center;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Estilização dos Títulos */
+h2 {
+    color: #0056b3; /* Título azul */
+    margin-top: 15px;
+    font-size: 1.8rem;
+}
+
+/* Estilização dos Textos */
+p {
+    color: #000000; /* Texto em preto */
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Divisores */
+hr {
+    border: none;
+    border-top: 1px solid #e8e6e6;
+    margin: 20px 0;
+}
+
+/* Seção do link / notícia */
+main main {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+main main img {
+    border-radius: 4px;
+}
+
