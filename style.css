@@ -1,6 +1,6 @@
 
 body {
-    background-color: #f0f0f0; /* Cor de fundo cinza claro */
+    background-color: #b30101; /* Cor de fundo cinza claro */
     font-family: Arial, Helvetica, sans-serif; /* deixa a letra mais bonita */
     color: #000000; /* Texto na cor preta */
     margin: 0;
@@ -20,7 +20,7 @@ h3 {
     font-size: 1.5rem;
 }
 
-/*  para centralizar e dar o visual profissional */
+/*  para centralizar e dar o visual profissional com as cores certas */
 main {
     max-width: 800px;
     width: 100%;
