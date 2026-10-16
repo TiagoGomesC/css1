@@ -21,30 +21,63 @@
                 muito mais.</p>
             <hr>
         </header>
-        <main>
-            <img src="/imagens/urnaeletronica.webp" alt="Logo urna eletronica" width="100" height="100" style="color: rgb(80, 65, 94);">
+
+        <!-- Mudado de <main> para <div> para manter a estrutura correta do HTML -->
+        <div class="destaque-titulo">
+            <img src="/imagens/urnaeletronica.webp" alt="Logo urna eletronica" width="100" height="100"
+                style="color: rgb(80, 65, 94);">
             <a href="https://www.tse.jus.br/servicos-eleitorais/servicos/aplicativo-e-titulo"
                 style="color: rgb(80, 65, 94);">Saiba como tirar seu titulo!</a>
-        </main>
+        </div>
+
         <section>
             <hr>
             <h3>Notícias em destaque</h3>
-            <ul>
-                <li><a href="https://www.migalhas.com.br/quentes/466039/flavio-promete-mudar-constituicao-entenda-caminhos-e-limites"
-                        style="color: rgb(80, 65, 94);">Flavio diz que vai redemocratizar o brasil</a></li>
-                <li><a href=https://www.bbc.com/portuguese/articles/cz9l047qg3zo"
-                        style="color: rgb(80, 65, 94);">Todas as promessas de Flavio ao presidente Trump!</a></li>
-                <li><a href="https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/lula-propostas-de-governo"
-                        style="color: rgb(80, 65, 94);">Proposta de governo de lula</a></li>
-            </ul>
+            <p>
+                verifique as informações antes de recompatilha-lás!
+            </p>
+            <div class="container-cards">
+
+                <!-- CARD 1 -->
+                <div class="card">
+                    <div class="card-conteudo">
+                        <h4>Política</h4>
+                        <p>Flavio diz que vai redemocratizar o brasil e promete mudar a Constituição.</p>
+                        <a href="https://www.migalhas.com.br/quentes/466039/flavio-promete-mudar-constituicao-entenda-caminhos-e-limites"
+                            class="card-botao">Ler Notícia</a>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="card">
+                    <div class="card-conteudo">
+                        <h4>Internacional</h4>
+                        <p>Todas as promessas de Flavio ao presidente Trump sobre o Pix e comércio.</p>
+                        <a href="https://www.bbc.com/portuguese/articles/cz9l047qg3zo" class="card-botao">Ler
+                            Notícia</a>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="card">
+                    <div class="card-conteudo">
+                        <h4>Eleições</h4>
+                        <p>Confira na íntegra as diretrizes e a proposta de governo de lula para o país.</p>
+                        <a href="https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/lula-propostas-de-governo"
+                            class="card-botao">Ler Notícia</a>
+                    </div>
+                </div>
+
+            </div>
             <hr>
         </section>
+    </main> 
 
-        <footer>
-            <p>
-                <strong> Mesa Te Informa</strong> - Todos os direitos reservados &copy; 2024
-            </p>
-        </footer>
+    <footer>
+        <p>
+            <strong> Mesa Te Informa</strong> - Todos os direitos reservados &copy; 2024
+        </p>
+    </footer>
 </body>
 
 </html>
